@@ -1,0 +1,80 @@
+
+body{
+    margin: 0 auto;
+    background-position: 0.2em;
+    background-size: 100%;
+}
+
+
+h2{
+    color: #9CBAB5;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.Trajan-gold { 
+    font-family: 'Trajan Color';
+    font-feature-settings: "ss12";
+    font-size: 1.8rem;
+    line-height: 1.2em;
+}
+
+
+.about{
+    background-color: #9CBAB5;
+    color: ivory;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8em;
+    padding: 1em;
+}
+
+
+.pic2{
+    width: 100%;
+    opacity: 50%;
+}
+
+
+.facts_Nums{
+    color: #9CBAB5;
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+
+.facts_Nums>h1{
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 3rem;;
+}
+
+.num{
+    font-size: 5rem;
+    font-family: 'Trajan Color';
+    font-feature-settings: "ss14";
+    line-height: 1em;
+}
+
+.text{
+    font-family:'Montserrat', sans-serif;
+    margin-top: -5.5em;
+}
+
+.quote{
+    background-color:#F6D9D0;
+    text-align: center;
+}
+
+.quote>p{
+    font-family: 'Cormorant Garamond', serif;
+    color: #9CBAB5;
+    font-size: 2.5rem;
+    margin: 1em;
+    padding-top: 1em;
+    
+}
+
+span{
+    font-family: 'Montserrat', sans-serif;
+    color: #9CBAB5;
+    font-size: 1.2em;
+}
