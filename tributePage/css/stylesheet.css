@@ -1,0 +1,142 @@
+
+body{
+    margin: 0 auto;
+    background-position: 0.2em;
+    background-size: 100%;
+}
+
+header{
+    text-align: center;
+}
+
+
+
+h2{
+    color: rgb( 156, 186, 181);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 2rem;
+    text-align: left;
+    padding: 0 30px;
+}
+
+
+
+
+.Trajan-gold { 
+    font-family: 'Trajan Color';
+    font-feature-settings: "ss12";
+    font-size: 3.5rem;
+    line-height: 1.2em;
+    text-align: left;
+    padding: 0 30px;
+    margin-top: -5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.about{
+    background-color: rgb( 156, 186, 181,.8);
+    color: ivory;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    line-height: 1.8em;
+    margin: 0 auto ;
+    padding: 10px 20px;
+}
+
+.transparentImage{
+    background-color: rgb( 156,186,181,.8);
+    text-align: center;
+}
+
+.img{
+    font-size: 0;
+}
+.odetteTalking{
+    width: 390px;
+}
+
+.caption{
+    background-color:rgb(246, 217, 208);
+    padding: 20px;
+    color: rgb(156, 186, 181); 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    text-align: left;
+    margin-top: -20px;
+}
+
+.OdetteHandsCrossed{
+    width: 350px;
+    opacity: 70%;
+}
+
+
+.facts_Nums{
+    color: rgb(156, 186, 181);
+    font-family: 'Cormorant Garamond', serif;
+    text-align: center;
+}
+
+.facts_Nums>h1{
+    font-family:'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-top: 3rem;;
+}
+
+.num{
+    font-size: 5rem;
+    font-family: 'Trajan Color';
+    font-feature-settings: "ss14";
+    line-height: 1em;
+}
+
+.text{
+    font-family:'Montserrat', sans-serif;
+    margin-top: -5.5em;
+}
+
+.quote{
+    background-color:rgb(246, 217, 208,.8);
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.quote>p{
+    font-family: 'Cormorant Garamond', serif;
+    color: #9CBAB5;
+    font-size: 2.5rem;
+    margin: 1em;
+    padding-top: 1em;
+    
+}
+
+.sources{
+    font-family: 'Times New Roman', Times, serif;
+    color: #9CBAB5;
+    text-align: center;
+    text-decoration: none;
+    padding-top:50px;
+    padding-bottom: 20px;
+}
+
+.sources, a{
+    color: #9CBAB5;
+}
+
+span{
+    font-family: 'Montserrat', sans-serif;
+    color: #9CBAB5;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #9CBAB5;
+    padding: 10px;
+    text-align: center;
+    color: ivory;
+    font-family: 'Montserrat', sans-serif;
+}
