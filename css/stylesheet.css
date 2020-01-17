@@ -1,52 +1,57 @@
 
-@media screen 
-and (min-device-width: 200px) {
+@media (max-device-width: 800px) {
 
 body{
     background-size: 100%;
     background-repeat: repeat;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tribute-to{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
+    align-content: center;
     text-align: center;
 }
 
 h2{
     color: rgb( 156, 186, 181);
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.5em;
-    margin-top: 2em;
-    margin-bottom: 1.5em;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 0;
 }
 
 
 .Trajan-concept { 
+    align-self: center;
     font-family: trajan-color, serif;
     font-feature-settings: "ss12";
-    font-size: 2em;
+    font-size: 2.25em;
     line-height: 1.2em;
-    margin-top: -20px;
-    margin-bottom: 1.5em;
     text-align: center;
+    margin-bottom: 0.3em;
 }
 
 .odetteWatching{
+    margin-top: 2em;
     margin-bottom: -10%;
     max-width: 90%;
 }
 
 .caption{
+    max-width:80%;
     background-color:rgb(246, 217, 208);
     color: rgb(156, 186, 181); 
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.75em;
-    line-height: 1.5em;
+    font-size: 0.9em;
+    font-weight: 400;
+    line-height: 1.3em;
     text-align: left;
-    max-width: 80%;
     position: relative;
     margin: 0 auto;
     -webkit-box-shadow: 9px 14px 29px -11px rgba(156, 186, 181,1);
-    margin-bottom: 20px;
     padding: 5px 5%;
 }
 
@@ -54,18 +59,13 @@ h2{
     background-color: rgb( 156, 186, 181,.8);
     color: ivory;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1em;
+    font-size: 1.1em;
     line-height: 1.5em;
-    margin: 50px auto 0 auto;
-    padding: 10px 30px;
     text-align: left;
+    padding: 5% 10%;
+    margin-top: 50px;
 }
 
-.about > p{
-    padding-top: 2em;
-    align-content: center;
-    margin: 0 auto;
-}
 
 .img{
     font-size: 0;
@@ -77,26 +77,27 @@ h2{
 }
 
 .OdetteHandsCrossed{
-    margin-left: 20px;
-    max-width: 80%;
-    opacity: 50%;
-    
+    width: 110%;
+    max-width: 300px;
+    opacity: 40%;
+    margin-left: -5px;
+    margin-top: -20px;
 }
 
 .facts_Nums{
     color: rgb(156, 186, 181);
     text-align: center;
-    margin: 4em auto;
+    margin: 3em auto;
 }
 
 .facts_Nums>h1{
     font-family:'Montserrat', sans-serif;
     font-size: 2rem;
-    margin-top: 3rem;
+    margin: 3rem;
 }
 
 .num{
-    font-size: 5rem;
+    font-size: 5em;
     font-family: trajan-color, serif;
     font-feature-settings: "ss14";
     line-height: 1em;
@@ -109,13 +110,15 @@ a{
 .text{
     font-family:'Montserrat', sans-serif;
     margin-top: -5.5em;
+    font-weight: 400;
 }
 
 .quote{
     background-color:rgb(246, 217, 208,.5);
     text-align: center;
-    padding-bottom: 4em;
     -webkit-box-shadow: 9px 14px 29px -11px rgba(156, 186, 181,1);
+    padding-bottom: 3em;
+    margin-top: 5em;
 }
 
 .quote p{
@@ -139,184 +142,63 @@ span{
     color: #9CBAB5;
     text-align: center;
     text-decoration: none;
-    padding: 3em;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 1.2em;
 }
 
 .sources, a{
     color: #9CBAB5;
 }
 
-
-
 footer{
     background-color: #9CBAB5;
     color: ivory;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8em;
-    padding: 25px;
+    padding: 20px;
     text-align: center;
-}
-
-}
-
-
-
-@media only screen 
-  and (min-device-width: 667px) 
-  and (max-device-width: 719px) {
-
-
-    header{
-        display: flex;
-        max-width: 85%;
-        margin: 0 auto;
+    opacity: 90%;
     }
-        
-    h2{
-        font-size: 1.8em;
-        text-align: left;
-        margin-top: 20px;
-    }
-    
-    
-    .Trajan-concept { 
-        font-size: 3.2em;
-        line-height: 1.3em;
-        text-align: left;
-    }
-    
-    .odetteWatching{
-        max-width: 300px;
-        margin-top: 4em;
-        margin-bottom: -20px;
-    }
-    
-    .caption{
-        width: 333px;
-    }
-    
-    .about{
-        margin-top: auto;
-    }
-
-    .about > p{
-        padding-top: 2em;;
-        align-content: center;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-
-    .OdetteHandsCrossed{
-        max-width: 50%;
-    }
-
-.info-align{
-        margin: 0 auto;
-        display: flex;
-        max-width:80%;
-    }
-
-    .data{
-        margin: 0 5%;
-    }
-
-    .data-1{
-        margin-right: 10%;
-    }
-    
-    .facts_Nums{
-        color: rgb(156, 186, 181);
-        text-align: center;
-        margin-bottom: 10%;
-    }
-    
-    .facts_Nums>h1{
-        font-family:'Montserrat', sans-serif;
-        font-size: 1.5rem;
-        margin-top: 3rem;
-        font-weight: 900;
-        margin-bottom: -30px;;
-    }    
-    
-    .text{
-        font-family:'Montserrat', sans-serif;
-        font-size: 0.8em;
-        margin-top: -5em;
-    }
-   
-    
-    .quote>p{
-        max-width: 70%;
-        font-size: 3rem;
-        margin: 30px auto;
-    }
-    
 }
 
 
 
 
-
-
-@media screen 
-  and (min-device-width: 720px) 
-  and (max-device-width: 900px) { 
+@media (min-device-width: 800px) 
+  and (max-device-width: 1024px) { 
 
 
 header{
     display: flex;
-    max-width: 80%;
-    margin: 0 auto;
+    max-width: 85%;
+    margin: 50px auto;
+    align-content: space-between;
 }
 
-
-
-h2{
-    margin-top: 50px;
-    color: rgb( 156, 186, 181);
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 1.8em;
+.tribute-to{
     text-align: left;
-    margin-bottom: 20px;
 }
 
-
-.Trajan-concept { 
-    font-size: 3em;
-    line-height: 1.2em;
+.Trajan-concept{
+    font-size: 3.5em;
+    align-self: flex-start;
     text-align: left;
-    margin-top: -5px;
-    max-width: 20%;
 }
 
 .odetteWatching{
-    max-width: 320px;
+    margin-top: 125px;
+    max-width: 340px;
 }
 
-.header-img{
-    margin-top: 100px;
+.caption{
+    position: relative;
+    max-width: 340px;
 }
-
-
-
-.about{
-    background-color: rgb( 156, 186, 181,.8);
-    color: ivory;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 0.8em;
-    line-height: 1.5em;
-    margin: 0 auto ;
-    padding: 0.5em;
-    width: 90%;
-}
-.about > p{
-    max-width: 70%;
-    margin-left: 55px;
-}      
 
 #about{
     display: flex;
+
 }
 
 .img{
@@ -324,7 +206,7 @@ h2{
 }
 
 .transparentImage{
-    width: 40%;
+    width: 100%;
     background-color: rgb( 156,186,181,.8);
 }
 
@@ -426,158 +308,3 @@ footer{
 }
   }
 
-
-
-
-@media screen 
-  and (min-device-width: 900px)  { 
-
-    header{
-        display: flex;
-        max-width: 70%;
-        margin: 0 auto;
-    }
-    
-    
-    
-    h2{
-        margin-top: 50px;
-        color: rgb( 156, 186, 181);
-        font-family: 'Cormorant Garamond', serif;
-        font-size: 2em;
-        text-align: left;
-        margin-bottom: 20px;
-    }
-    
-    
-    .Trajan-concept { 
-        font-size: 4em;
-        line-height: 1.2em;
-        text-align: left;
-        margin-top: -5px;
-        max-width: 20%;
-    }
-    
-    .odetteWatching{
-        max-width: 350px;
-    }
-    
-    .header-img{
-        margin-top: 100px;
-    }
-    
-    
-    
-    .about{
-        background-color: rgb( 156, 186, 181,.8);
-        color: ivory;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 1em;
-        line-height: 1.5em;
-        margin: 0 auto ;
-        padding: 0.5em;
-        width: 90%;
-    }
-    .about > p{
-        max-width: 60%;
-        margin-left: 12em;
-    }      
-    
-    #about{
-        display: flex;
-    }
-    
-    .img{
-        font-size: 0;
-    }
-    
-    .transparentImage{
-        width: 40%;
-        background-color: rgb( 156,186,181,.8);
-    }
-    
-    .OdetteHandsCrossed{
-        padding-top: 10px;
-        max-width: 90%;
-        opacity: 50%;
-        margin-left: -125px;
-    }
-    
-    .info-align{
-        margin: 0 auto;
-        display: flex;
-        max-width:80%;
-    }
-    
-    .data{
-        margin: 0 auto;
-    }
-    
-    .data-1{
-        margin-right: 10%;
-    }
-    
-    .facts_Nums{
-        color: rgb(156, 186, 181);
-        text-align: center;
-    }
-    
-    .facts_Nums>h1{
-        font-family:'Montserrat', sans-serif;
-        font-size: 2rem;
-        margin-top: 3rem;
-        font-weight: 900;
-    }
-    
-    .num{
-        font-size: 6rem;
-        font-family: trajan-color, serif;
-        font-feature-settings: "ss14";
-        line-height: 1em;
-        text-justify: auto;
-    }
-    
-    a{
-        text-decoration: none;
-    }
-    
-    .text{
-        font-family:'Montserrat', sans-serif;
-        font-size: 1em;
-        margin-top: -5em;
-    }
-    
-    .quote{
-        background-color:rgb(246, 217, 208,.5);
-        text-align: center;
-        padding-bottom: 30px;
-        -webkit-box-shadow: 9px 14px 29px -11px rgba(156, 186, 181,1);
-    }
-    
-    .quote>p{
-        max-width: 50%;
-        font-family: 'Cormorant Garamond', serif;
-        color: #9CBAB5;
-        font-size: 4rem;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        margin: 20px auto;
-    }
-    
-    .sources, a{
-        color: #9CBAB5;
-    }
-    
-    span{
-        font-family: 'Montserrat', sans-serif;
-        color: #9CBAB5;
-        font-size: 0.8em;
-        font-weight: bold;
-    }
-    
-    }
-    
-
-    
-
-  
