@@ -18,12 +18,12 @@ h2{
     color: rgb( 156, 186, 181);
     font-family: 'Cormorant Garamond', serif;
     font-size: 2em;
-    margin-top: 1em;
     margin-bottom: 0;
 }
 
 
 .Trajan-concept { 
+    max-width: 90%;
     align-self: center;
     font-family: trajan-color, serif;
     font-feature-settings: "ss12";
@@ -64,6 +64,7 @@ h2{
     line-height: 1.5em;
     text-align: center;
   }
+
 
 
 .about>p{
@@ -148,7 +149,7 @@ span{
     text-decoration: none;
     margin: 20px auto;
     padding: 20px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .sources, a{
@@ -169,7 +170,7 @@ footer{
 /* ---------------------------  MediaQuery --------------------------*/
 
 
-@media (min-device-width: 732px)  { 
+@media (min-width: 768px)  { 
 
 
 header{
@@ -195,7 +196,7 @@ header{
 .odetteWatching{
     width: 100%;
     margin-top: 100px;
-    max-width: 657px;
+    max-width: 800px;
 }
 
 .caption{
@@ -211,6 +212,13 @@ header{
     margin: 0 auto;
   }
 
+.about{
+    
+    align-self: flex-start;
+    text-align: left;
+    margin-right: 10px;
+    max-width: 50%;
+}
 
 .about>p{
     padding: 20px 0;
@@ -262,20 +270,29 @@ p.num{
   }
   
 
-  @media (min-device-width: 1024px){
+  @media (min-width: 992px){
 
 
     header{
-        max-width: 900px;
+        max-width: 800px;
+    }
+
+    #about{
+        margin: 0 auto;
     }
 
     .about{
         margin: 0 auto;
-        max-width: 900px;
-    }
-    
-    .about>p{
-        padding-left: 20px;;
+        max-width: 60%;
     }
 
-  } 
+    .about>p{
+        max-width: 60%;
+    }
+
+    .data{
+        margin-left: 12%;
+    }
+
+    
+  }
