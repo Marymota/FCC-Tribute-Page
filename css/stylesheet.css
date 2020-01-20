@@ -1,12 +1,11 @@
 
-@media (max-device-width: 800px) {
-
 body{
     background-size: 100%;
     background-repeat: repeat;
     margin: 0 auto;
     text-align: center;
 }
+
 
 .tribute-to{
     display: flex;
@@ -55,33 +54,38 @@ h2{
     padding: 5px 5%;
 }
 
-.about{
+#about{
+    margin-top: 50px;;
+    width: 100%;
     background-color: rgb( 156, 186, 181,.8);
     color: ivory;
     font-family: 'Montserrat', sans-serif;
     font-size: 1.1em;
     line-height: 1.5em;
+    text-align: center;
+  }
+
+
+.about>p{
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 25px;
     text-align: left;
-    padding: 5% 10%;
-    margin-top: 50px;
 }
 
-
-.img{
+img{
     font-size: 0;
 }
 
 .transparentImage{
-    background-color: rgb( 156,186,181,.8);
     text-align: center;
 }
 
 .OdetteHandsCrossed{
-    width: 110%;
     max-width: 300px;
     opacity: 40%;
-    margin-left: -5px;
-    margin-top: -20px;
+    margin-left: -20px;
+    margin-bottom: -6px;
 }
 
 .facts_Nums{
@@ -160,151 +164,118 @@ footer{
     text-align: center;
     opacity: 90%;
     }
-}
 
 
+/* ---------------------------  MediaQuery --------------------------*/
 
 
-@media (min-device-width: 800px) 
-  and (max-device-width: 1024px) { 
+@media (min-device-width: 732px)  { 
 
 
 header{
     display: flex;
-    max-width: 85%;
+    max-width: 80%;
     margin: 50px auto;
     align-content: space-between;
 }
 
 .tribute-to{
     text-align: left;
+    max-width: 90%;
 }
 
 .Trajan-concept{
     font-size: 3.5em;
     align-self: flex-start;
     text-align: left;
+    margin-right: 10px;
+    max-width: 50%;
 }
 
 .odetteWatching{
-    margin-top: 125px;
-    max-width: 340px;
+    width: 100%;
+    margin-top: 100px;
+    max-width: 657px;
 }
 
 .caption{
     position: relative;
-    max-width: 340px;
+    max-width: 657px;
 }
+
 
 #about{
     display: flex;
-
-}
-
-.img{
-    font-size: 0;
-}
-
-.transparentImage{
-    width: 100%;
-    background-color: rgb( 156,186,181,.8);
-}
-
-.OdetteHandsCrossed{
-    padding-top: 10px;
-    max-width: 140%;
-    opacity: 50%;
-    margin-left: -125px;
-}
-
-.info-align{
+    flex-direction: row;
+    text-align: center;
     margin: 0 auto;
-    display: flex;
-    max-width:80%;
-}
+  }
 
-.data{
-    margin: 0 auto;
-}
 
-.data-1{
-    margin-right: 10%;
-}
-
-.facts_Nums{
-    color: rgb(156, 186, 181);
-    text-align: center;
-    margin-bottom: 10%;
-}
-
-.facts_Nums>h1{
-    font-family:'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    margin-top: 3rem;
-    font-weight: 900;
-    margin-bottom: -30px;;
-}
-
-.num{
-    font-size: 5rem;
-    font-family: trajan-color, serif;
-    font-feature-settings: "ss14";
-    line-height: 1em;
-    text-justify: auto;
-}
-
-a{
-    text-decoration: none;
-}
-
-.text{
-    font-family:'Montserrat', sans-serif;
-    font-size: 0.8em;
-    margin-top: -5em;
-}
-
-.quote{
-    background-color:rgb(246, 217, 208,.5);
-    text-align: center;
-    padding-bottom: 30px;
-    -webkit-box-shadow: 9px 14px 29px -11px rgba(156, 186, 181,1);
-}
-
-.quote>p{
-    max-width: 70%;
-    font-family: 'Cormorant Garamond', serif;
-    color: #9CBAB5;
-    font-size: 3rem;
-    padding-top: 1em;
-    margin: 30px auto;
-}
-
-.sources{
-    font-family: 'Times New Roman', Times, serif;
-    color: #9CBAB5;
-    text-align: center;
-    text-decoration: none;
-    padding-top:50px;
-    padding-bottom: 20px;
-}
-
-.sources, a{
-    color: #9CBAB5;
-}
-
-span{
-    font-family: 'Montserrat', sans-serif;
-    color: #9CBAB5;
-    font-size: 0.8em;
+.about>p{
+    padding: 20px 0;
+    max-width: 100%;
+    text-align: left;
+    margin-left: 10vw;
     font-weight: bold;
 }
 
-footer{
-    background-color: #9CBAB5;
-    padding: 10px;
-    text-align: center;
-    color: ivory;
-    font-family: 'Montserrat', sans-serif;
+.img{
+    display: flex;
 }
-  }
 
+.OdetteHandsCrossed{
+    margin-bottom: 1px;
+    max-width: 350px;
+    align-self: flex-end;
+    margin-right: 5vw;
+}
+
+.facts_Nums{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+p.num{
+    margin-top: 30px
+}
+
+.info-align{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    margin: 0 auto;
+}
+
+.data{
+    margin: 0 10%;
+}
+
+
+.quote>p{
+    margin: 1em auto;
+    max-width: 70%;
+    font-size: 3.5em;
+}
+
+  }
+  
+
+  @media (min-device-width: 1024px){
+
+
+    header{
+        max-width: 900px;
+    }
+
+    .about{
+        margin: 0 auto;
+        max-width: 900px;
+    }
+    
+    .about>p{
+        padding-left: 20px;;
+    }
+
+  } 
